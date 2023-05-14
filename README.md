@@ -2,9 +2,9 @@
 
 Clone da página de pesquisa do Google desenvolvido com HTML e CSS.
 
-🔗 [Click here to access](https://n4ju15.github.io//)
+🔗 [Click here to access](https://n4ju15.github.io/google-search/)
 
-![screenshot](./assets/.png)
+![screenshot](./assets/readme.png)
 
 ## Tecnologias
 
