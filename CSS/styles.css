@@ -74,7 +74,9 @@ header {
 
 #links-list  li {
     display: inline-block;
-    padding: 11px 11px;
+    padding-top: 11px;
+    padding-left: 11px;
+    padding-right: 11px;
 }
 
 #links-list  li a {
@@ -85,6 +87,12 @@ header {
     display: inline-block;
 }
 
+#links-list  li span {
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 3px;
+}
+
 #links-list  li a:hover {
     color: #1a73e8;
 }
@@ -93,14 +101,8 @@ header {
    border-bottom: 3px solid #1a73e8; 
 }
 
-#links-list .active-link {
+#links-list .active-link a {
     color: #1a73e8;
-}
-
-#links-list  li span {
-    font-size: 16px;
-    display: inline-block;
-    margin-right: 3px;
 }
 
 
@@ -115,6 +117,7 @@ header {
 
 main {
     flex: 2 1 0;
+    padding-right: 35px;
 }
 
 aside {
@@ -130,7 +133,7 @@ aside {
 #results {
     color: #70757A;
     font-size: 14px;
-    
+    margin-top: 20px;
     margin-bottom: 5px;
   }
   
@@ -310,7 +313,7 @@ aside {
     font-size: 14px;
     color: #222;
     line-height: 1.57;
-    padding: 0 15px;
+    padding: 15px;
   }
   
   .about-text span {
